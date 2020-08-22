@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E960A4924F19EDC003E5A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E960A4824F19EDC003E5A63 /* AppDelegate.swift */; };
+		1E960A4B24F19EDC003E5A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E960A4A24F19EDC003E5A63 /* SceneDelegate.swift */; };
+		1E960A4D24F19EDC003E5A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E960A4C24F19EDC003E5A63 /* ViewController.swift */; };
+		1E960A5024F19EDC003E5A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E960A4E24F19EDC003E5A63 /* Main.storyboard */; };
+		1E960A5224F19EE0003E5A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E960A5124F19EE0003E5A63 /* Assets.xcassets */; };
+		1E960A5524F19EE0003E5A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E960A5324F19EE0003E5A63 /* LaunchScreen.storyboard */; };
+		1E960A6024F19EE0003E5A63 /* KansalWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E960A5F24F19EE0003E5A63 /* KansalWeatherTests.swift */; };
+		1E960A6B24F19EE0003E5A63 /* KansalWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E960A6A24F19EE0003E5A63 /* KansalWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E960A5C24F19EE0003E5A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E960A3D24F19EDC003E5A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E960A4424F19EDC003E5A63;
+			remoteInfo = KansalWeather;
+		};
+		1E960A6724F19EE0003E5A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E960A3D24F19EDC003E5A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E960A4424F19EDC003E5A63;
+			remoteInfo = KansalWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E960A4524F19EDC003E5A63 /* KansalWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KansalWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E960A4824F19EDC003E5A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E960A4A24F19EDC003E5A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E960A4C24F19EDC003E5A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E960A4F24F19EDC003E5A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E960A5124F19EE0003E5A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E960A5424F19EE0003E5A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E960A5624F19EE0003E5A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E960A5B24F19EE0003E5A63 /* KansalWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KansalWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E960A5F24F19EE0003E5A63 /* KansalWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KansalWeatherTests.swift; sourceTree = "<group>"; };
+		1E960A6124F19EE0003E5A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E960A6624F19EE0003E5A63 /* KansalWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KansalWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E960A6A24F19EE0003E5A63 /* KansalWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KansalWeatherUITests.swift; sourceTree = "<group>"; };
+		1E960A6C24F19EE0003E5A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E960A4224F19EDC003E5A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E960A5824F19EE0003E5A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E960A6324F19EE0003E5A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E960A3C24F19EDC003E5A63 = {
+			isa = PBXGroup;
+			children = (
+				1E960A4724F19EDC003E5A63 /* KansalWeather */,
+				1E960A5E24F19EE0003E5A63 /* KansalWeatherTests */,
+				1E960A6924F19EE0003E5A63 /* KansalWeatherUITests */,
+				1E960A4624F19EDC003E5A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E960A4624F19EDC003E5A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E960A4524F19EDC003E5A63 /* KansalWeather.app */,
+				1E960A5B24F19EE0003E5A63 /* KansalWeatherTests.xctest */,
+				1E960A6624F19EE0003E5A63 /* KansalWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E960A4724F19EDC003E5A63 /* KansalWeather */ = {
+			isa = PBXGroup;
+			children = (
+				1E960A4824F19EDC003E5A63 /* AppDelegate.swift */,
+				1E960A4A24F19EDC003E5A63 /* SceneDelegate.swift */,
+				1E960A4C24F19EDC003E5A63 /* ViewController.swift */,
+				1E960A4E24F19EDC003E5A63 /* Main.storyboard */,
+				1E960A5124F19EE0003E5A63 /* Assets.xcassets */,
+				1E960A5324F19EE0003E5A63 /* LaunchScreen.storyboard */,
+				1E960A5624F19EE0003E5A63 /* Info.plist */,
+			);
+			path = KansalWeather;
+			sourceTree = "<group>";
+		};
+		1E960A5E24F19EE0003E5A63 /* KansalWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E960A5F24F19EE0003E5A63 /* KansalWeatherTests.swift */,
+				1E960A6124F19EE0003E5A63 /* Info.plist */,
+			);
+			path = KansalWeatherTests;
+			sourceTree = "<group>";
+		};
+		1E960A6924F19EE0003E5A63 /* KansalWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E960A6A24F19EE0003E5A63 /* KansalWeatherUITests.swift */,
+				1E960A6C24F19EE0003E5A63 /* Info.plist */,
+			);
+			path = KansalWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E960A4424F19EDC003E5A63 /* KansalWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E960A6F24F19EE0003E5A63 /* Build configuration list for PBXNativeTarget "KansalWeather" */;
+			buildPhases = (
+				1E960A4124F19EDC003E5A63 /* Sources */,
+				1E960A4224F19EDC003E5A63 /* Frameworks */,
+				1E960A4324F19EDC003E5A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KansalWeather;
+			productName = KansalWeather;
+			productReference = 1E960A4524F19EDC003E5A63 /* KansalWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E960A5A24F19EE0003E5A63 /* KansalWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E960A7224F19EE0003E5A63 /* Build configuration list for PBXNativeTarget "KansalWeatherTests" */;
+			buildPhases = (
+				1E960A5724F19EE0003E5A63 /* Sources */,
+				1E960A5824F19EE0003E5A63 /* Frameworks */,
+				1E960A5924F19EE0003E5A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E960A5D24F19EE0003E5A63 /* PBXTargetDependency */,
+			);
+			name = KansalWeatherTests;
+			productName = KansalWeatherTests;
+			productReference = 1E960A5B24F19EE0003E5A63 /* KansalWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E960A6524F19EE0003E5A63 /* KansalWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E960A7524F19EE0003E5A63 /* Build configuration list for PBXNativeTarget "KansalWeatherUITests" */;
+			buildPhases = (
+				1E960A6224F19EE0003E5A63 /* Sources */,
+				1E960A6324F19EE0003E5A63 /* Frameworks */,
+				1E960A6424F19EE0003E5A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E960A6824F19EE0003E5A63 /* PBXTargetDependency */,
+			);
+			name = KansalWeatherUITests;
+			productName = KansalWeatherUITests;
+			productReference = 1E960A6624F19EE0003E5A63 /* KansalWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E960A3D24F19EDC003E5A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Kansal Industries";
+				TargetAttributes = {
+					1E960A4424F19EDC003E5A63 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1E960A5A24F19EE0003E5A63 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1E960A4424F19EDC003E5A63;
+					};
+					1E960A6524F19EE0003E5A63 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1E960A4424F19EDC003E5A63;
+					};
+				};
+			};
+			buildConfigurationList = 1E960A4024F19EDC003E5A63 /* Build configuration list for PBXProject "KansalWeather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E960A3C24F19EDC003E5A63;
+			productRefGroup = 1E960A4624F19EDC003E5A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E960A4424F19EDC003E5A63 /* KansalWeather */,
+				1E960A5A24F19EE0003E5A63 /* KansalWeatherTests */,
+				1E960A6524F19EE0003E5A63 /* KansalWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E960A4324F19EDC003E5A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E960A5524F19EE0003E5A63 /* LaunchScreen.storyboard in Resources */,
+				1E960A5224F19EE0003E5A63 /* Assets.xcassets in Resources */,
+				1E960A5024F19EDC003E5A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E960A5924F19EE0003E5A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E960A6424F19EE0003E5A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E960A4124F19EDC003E5A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E960A4D24F19EDC003E5A63 /* ViewController.swift in Sources */,
+				1E960A4924F19EDC003E5A63 /* AppDelegate.swift in Sources */,
+				1E960A4B24F19EDC003E5A63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E960A5724F19EE0003E5A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E960A6024F19EE0003E5A63 /* KansalWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E960A6224F19EE0003E5A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E960A6B24F19EE0003E5A63 /* KansalWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E960A5D24F19EE0003E5A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E960A4424F19EDC003E5A63 /* KansalWeather */;
+			targetProxy = 1E960A5C24F19EE0003E5A63 /* PBXContainerItemProxy */;
+		};
+		1E960A6824F19EE0003E5A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E960A4424F19EDC003E5A63 /* KansalWeather */;
+			targetProxy = 1E960A6724F19EE0003E5A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E960A4E24F19EDC003E5A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E960A4F24F19EDC003E5A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E960A5324F19EE0003E5A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E960A5424F19EE0003E5A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E960A6D24F19EE0003E5A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E960A6E24F19EE0003E5A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E960A7024F19EE0003E5A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5WWM5D88G;
+				INFOPLIST_FILE = KansalWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kansalindustries.KansalWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E960A7124F19EE0003E5A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5WWM5D88G;
+				INFOPLIST_FILE = KansalWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kansalindustries.KansalWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E960A7324F19EE0003E5A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5WWM5D88G;
+				INFOPLIST_FILE = KansalWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kansalindustries.KansalWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KansalWeather.app/KansalWeather";
+			};
+			name = Debug;
+		};
+		1E960A7424F19EE0003E5A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5WWM5D88G;
+				INFOPLIST_FILE = KansalWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kansalindustries.KansalWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KansalWeather.app/KansalWeather";
+			};
+			name = Release;
+		};
+		1E960A7624F19EE0003E5A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5WWM5D88G;
+				INFOPLIST_FILE = KansalWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kansalindustries.KansalWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KansalWeather;
+			};
+			name = Debug;
+		};
+		1E960A7724F19EE0003E5A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5WWM5D88G;
+				INFOPLIST_FILE = KansalWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kansalindustries.KansalWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KansalWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E960A4024F19EDC003E5A63 /* Build configuration list for PBXProject "KansalWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E960A6D24F19EE0003E5A63 /* Debug */,
+				1E960A6E24F19EE0003E5A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E960A6F24F19EE0003E5A63 /* Build configuration list for PBXNativeTarget "KansalWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E960A7024F19EE0003E5A63 /* Debug */,
+				1E960A7124F19EE0003E5A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E960A7224F19EE0003E5A63 /* Build configuration list for PBXNativeTarget "KansalWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E960A7324F19EE0003E5A63 /* Debug */,
+				1E960A7424F19EE0003E5A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E960A7524F19EE0003E5A63 /* Build configuration list for PBXNativeTarget "KansalWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E960A7624F19EE0003E5A63 /* Debug */,
+				1E960A7724F19EE0003E5A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E960A3D24F19EDC003E5A63 /* Project object */;
+}
