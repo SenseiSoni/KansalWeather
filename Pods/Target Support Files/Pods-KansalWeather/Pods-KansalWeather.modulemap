@@ -1,0 +1,6 @@
+framework module Pods_KansalWeather {
+  umbrella header "Pods-KansalWeather-umbrella.h"
+
+  export *
+  module * { export * }
+}
